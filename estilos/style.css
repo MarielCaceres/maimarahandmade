@@ -264,7 +264,7 @@ div{
 
 /*grid areas*/
 grid-template-areas: 
-"menu header header" /*fila 1 */
+"header header" /*fila 1 */
 "menu productos productos"  /* fila 2 */
 "footer footer footer";/*fila 3*/
 
