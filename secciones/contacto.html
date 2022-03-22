@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="shortcut icon" href="./img.html/images.png" type="image/x-icon">
         <link rel="stylesheet" href="../estilos/style.css">
 
@@ -14,34 +15,62 @@
 <body>
     <title>Maimará</title>
 
+    <header id="header" class="titulo">
+        Maimará
+      </header>
+        
+      <div class="list-group">
+        <a href="./secciones/productos.html" class="list-group-item list-group-item-action" > Productos</a>
+        <a href="./secciones/nosotros.html" class="list-group-item list-group-item-action">Conocenos</a>
+        <a href="./secciones/contacto.html" class="list-group-item list-group-item-action">Contacto</a>
+        <a href="./horarios/horarios.html" class="list-group-item list-group-item-action">Horarios de atención</a>
+        <a href="./ubicacion/ubicacion.html"class="list-group-item list-group-item-action-action">Ubicación</a>
+        <a href="./ofertas/ofertas.html"class="list-group-item list-group-item-action-action">Ofertas</a>
+      </div>
+
+
+
+
+
+
 <!-- Multimedia -->
 
-<img class="logo" src="../img.html/LogoMaimara.png" alt="logo maimara__">
+<img class="logo" src="../img.html/LogoMaimara.png" alt="logo maimara__" width="200" height="200">
 <form class="contactoform">
     <label for="nombre y apellido">Ingrese su nombre y apellido:</label>
     <input type="text" name="nombre y apellido" />
 
     
-    <form>
-         <input type="submit" value="Enviar formulario"/>
-         <input type="reset" value="Limpiar formulario"/>
-         
+    <form class="was-validated">
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label">Escriba su consulta</label>
+          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+          <div class="invalid-feedback">
+            Debe ingresar un texto.
+          </div>
+        </div>
+      
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+          <label class="form-check-label" for="validationFormCheck1">Quiero recibir información por email</label>
+          <div class="invalid-feedback">Example invalid feedback text</div>
+        </div>
+      
+        
+        <div class="form-check mb-3">
+          <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+          
+          <div class="invalid-feedback">More example invalid feedback text</div>
+        </div>
+      
+    
+      
+        <div class="mb-3">
+          <button class="btn btn-primary" type="submit" disabled>Enviar</button>
+        </div>
+      </form>
 
 
-    </form>
-
-    <form class="contactoform">
-        <div> Venta mayorista </div>
-        <input type="radio" name="Retiro" id="Envio a domicilio">
-        <div> Venta minorista </div>
-        <input type="radio" name="Retiro" id="Retiro en en local">
-    </form>
-    <form class="contactoform">
-    <div>Acepta terminos y condiciones</div>
-    <input type="checkbox" name="Acepto">
-</form>
-
-</form>
 <!-- Enlace absoluto: me redirecciona a un sitio externo -->
 <a class="link" href="https://www.instagram.com/maimara__/?hl=en">Ir a instagram </a>
 
