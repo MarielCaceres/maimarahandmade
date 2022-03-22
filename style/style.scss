@@ -1,0 +1,303 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bungee+Shade&family=Dancing+Script&family=Major+Mono+Display&family=Marcellus+SC&family=Nanum+Gothic&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bungee+Shade&family=Dancing+Script&family=Major+Mono+Display&family=Marcellus+SC&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@300&family=Poiret+One&display=swap');
+
+.titulo {
+position: sticky;top: 0%;left: 0%;
+color:white;
+    font-size: 3cm;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 0cm;
+    background-color: rgb(243, 200, 243);
+    display: grid;
+
+
+    
+}
+
+
+.font{
+    color: rgb(240, 150, 180);
+    text-align: center;
+    font-weight: lighter;
+    font-size: larger;
+    font-family: 'Poiret One', cursive;
+    background-color: lemonchiffon;
+    position: sticky;top: 0%;left: 0%
+  
+}
+
+
+.pie{
+    font-size: medium;
+    font-weight: lighter;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: burlywood;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 200px;
+    text-align: center;
+    display: grid;
+    
+} 
+.piepie{color:black;
+    display: grid;
+}
+
+
+
+ol{list-style-type: none;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgrey;
+    
+}
+
+ul{list-style-type: none;
+    margin-top: 1cm;
+    margin-bottom: 3cm;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgb(242, 194, 247);
+    text-align: center;
+    
+    
+}
+
+
+.nosotros{ color: white;
+   
+    padding-inline-start: 0px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+
+    
+}
+.contacto{color: white;
+    padding-inline-start:0px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.productos{ color: white;
+    padding-inline-start: 2px;
+    border:0ch;
+    width: 10px;
+    height: 10px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+.mayoristas{color: white;
+    padding-inline-start: 2px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+.horarios{color: white;
+    padding-inline-start: 2px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    
+
+}
+.ofertas{color: white;
+    padding-inline-start: 2px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+.ubicacion{color:white;
+    padding-inline-start: 2px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    
+}
+
+.piee{
+    font-size: x-large;
+    color: blueviolet;
+    display: grid;
+}
+
+.opciones{
+    font-size: 20px;
+    color: dimgrey;
+}
+.direccion{
+    margin-left: 20px;
+    font-size: 20px;
+    color: grey;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+.maps{
+    margin-left: 25px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkgrey;
+}
+
+.contactoform{
+    font-size: 20px;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.link{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color: bisque;
+    padding-inline-start: 20px;
+    
+}
+
+.descripcion{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.ofertass{
+    color: white;
+    padding-inline-start: 2px;
+    border:0ch;
+    width: 1px;
+    height: 1px;
+    margin:0px;
+    display: inline-table;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.horario{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+div{
+   display:grid;
+    margin: 5px;
+    
+
+}
+
+    
+
+
+/* gridareas*/
+#gridareas {
+    display: grid;
+
+    
+
+
+/*grid areas*/
+grid-template-areas: 
+"header header" /*fila 1 */
+"menu productos productos"  /* fila 2 */
+"footer footer footer";/*fila 3*/
+
+
+
+
+/*Nombrar Areas*/
+
+header {
+   
+    background-color: rgb(243, 200, 243);
+  grid-area: header; 
+}
+
+.pie {
+    background-color: beige;
+    padding: 10px;
+    grid-area: pie;
+    
+
+}
+
+#productos {
+    grid-area: productos; 
+    padding: 10px;
+}
+
+
+nav{
+    grid-area: menu;
+}
+
+body{
+    color: whitesmoke;
+    height: 100px;
+    width: 100px;
+}
